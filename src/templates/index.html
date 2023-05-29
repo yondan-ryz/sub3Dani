@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Free restaurant catalogue for you">
+  <meta name="theme-color" content="#DB0000"/>
+
+  <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
+  <link rel="icon" href="./favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="manifest" href="./app.webmanifest">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+  <title>Yonds Foods</title>
+  <title>Movie Catalogue</title>
+</head>
+<body>
+<a href="#mainContent" class="skip-link">Menuju ke konten</a>
+<header class="app-bar">
+  <div class="app-bar__menu">
+    <button id="hamburgerButton">☰</button>
+  </div>
+  <div class="app-bar__brand">
+    <picture>
+      <source media="(max-width: 480px)" srcset="./images/logo-small.png">
+      <img id="img-logo" src="./images/logo-large.png" alt="logo">
+    </picture>
+  </div>
+  <nav id="navigationDrawer" class="app-bar__navigation">
+    <ul>
+      <li><a href="#/list">List Restaurant</a></li>
+      <li><a href="#/like">Favorit</a></li>
+      <li><a href="https://www.instagram.com/yonathan_dani/" target="_blank">About Us</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="container-hero">
+  <picture>
+    <source type="image/webp" media="(max-width: 480px)" srcset="./images/hero-image_2-small.webp">
+    <source type="image/png" media="(max-width: 480px)" srcset="./images/hero-image_2-small.png">
+    <source type="image/webp" srcset="./images/hero-image_2-large.webp">
+    <img style="width: 100%; height: 400px; object-fit: cover;" src="./images/hero-image_2-large.png" alt="hero">
+  </picture>
+  <div class="centered">Yonds Foods</div>
+</div>
+<main id="mainContent"></main>
+<footer>
+  <div id="footerTools">
+    <button id="subscribePushNotification" class="btn">Subscribe Push Notification</button>
+    <button id="unsubscribePushNotification" class="btn">Unsubscribe Push Notification</button>
+  </div>
+  <p>All data obtained from<a href="https://dicoding.org" target="_blank" rel="noreferrer">Dicoding</a></p>
+</footer>
+</body>
+</html>
